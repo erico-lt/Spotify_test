@@ -2,7 +2,9 @@ header{
     background: #5b0c74a6;   
 }
 body{    
-    background: url(/imagens/capa.png);
+    background: url(/imagens/capa.png),
+                url(/imagens/ruido.png),
+    linear-gradient(50deg, #ff4169, #7c26f8);
 }
 #area_botoes_inscricaoeentrar{
     border-left: solid 1px white;      
