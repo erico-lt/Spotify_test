@@ -1,3 +1,26 @@
 header{
-    background: #4f007d;
+    background: #5b0c74a6;   
+}
+body{    
+    background: url(/imagens/capa.png);
+}
+#area_botoes_inscricaoeentrar{
+    border-left: solid 1px white;      
+}
+#area_botoes_inscricaoeentrar:hover{
+    border-left: solid 1px red;
+}
+.navbar ul a{        
+    color: rgba(238, 238, 238, 0.801);     
+}
+.link{
+    margin-right: 20px;    
+}
+.nav-item .link:hover{
+    text-decoration: overline #003eff;
+    color: white;
+}
+#area_botoes_inscricaoeentrar a:hover{
+    color: white;
+    text-decoration: overline rgb(32, 190, 32);
 }
