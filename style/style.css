@@ -4,7 +4,7 @@ header{
 body{    
     background: url(/imagens/capa.png),
                 url(/imagens/ruido.png),
-    linear-gradient(50deg, #ff4169, #7c26f8);
+    linear-gradient(to right, #ff4169, #7c26f8);
 }
 #area_botoes_inscricaoeentrar{
     border-left: solid 1px white;      
@@ -15,14 +15,30 @@ body{
 .navbar ul a{        
     color: rgba(238, 238, 238, 0.801);     
 }
-.link{
-    margin-right: 20px;    
-}
-.nav-item .link:hover{
-    text-decoration: overline #003eff;
+.nav-item .link_primarios:hover{
+    text-decoration: overline #fbff00;
     color: white;
 }
-#area_botoes_inscricaoeentrar a:hover{
-    color: white;
+.navbar-nav .link:hover{
+    color: #33a2ec;
     text-decoration: overline rgb(32, 190, 32);
 }
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+} 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #33a2ec;
+}       
+.navbar-toggler{
+    border: solid 1px white;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, 0.932);
+    border-color: rgba(255, 255, 255, 0.884);
+}
+.navbar-nav .divisor{
+    border-left: solid 1px white ;
+    height: 20px;
+    margin: 0 10px 0 10px;
+}
+ 
