@@ -1,23 +1,15 @@
-header{
-    background: #5b0c74a6;   
+
+html, body, #home{
+    width: 100%;
+    height: 100%;    
 }
 body{    
     background: url(/imagens/capa.png),
                 url(/imagens/ruido.png),
     linear-gradient(to right, #ff4169, #7c26f8);
 }
-#area_botoes_inscricaoeentrar{
-    border-left: solid 1px white;      
-}
-#area_botoes_inscricaoeentrar:hover{
-    border-left: solid 1px red;
-}
-.navbar ul a{        
-    color: rgba(238, 238, 238, 0.801);     
-}
-.nav-item .link_primarios:hover{
-    text-decoration: overline #fbff00;
-    color: white;
+header{
+    background: rgba(0, 0, 0, 0.5);   
 }
 .navbar-nav .link:hover{
     color: #33a2ec;
@@ -40,5 +32,15 @@ body{
     border-left: solid 1px white ;
     height: 20px;
     margin: 0 10px 0 10px;
+}
+.btn-danger:hover {
+    color: rgb(221, 212, 212);
+    background-color: #c74332;
+    border-color: #f5d62a;
+}
+.btn-warning:hover {
+    color: #1011139f;
+    background-color: #e48f49;
+    border-color: #fcdb24;
 }
  
