@@ -33,14 +33,62 @@ header{
     height: 20px;
     margin: 0 10px 0 10px;
 }
-.btn-danger:hover {
-    color: rgb(221, 212, 212);
-    background-color: #c74332;
-    border-color: #f5d62a;
+/* capa*/
+h1{
+    color: white;
+    letter-spacing: -0.05em;
 }
-.btn-warning:hover {
-    color: #1011139f;
-    background-color: #e48f49;
-    border-color: #fcdb24;
+@media (max-width: 575.98px){
+   h1{
+       font-size: 2.85em;
+   }
 }
- 
+@media (min-width: 576px) and (max-width: 767.98px){ /* small devise*/
+    h1{
+        font-size: 3em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){/* medium devise*/
+    h1{
+        font-size: 4em;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){/*large devise*/
+    h1{
+        font-size: 5em;
+    }
+}
+@media(min-width: 1200px) and (max-width: 1920px){/* medium devise*/
+    h1{
+        font-size: 6em;
+    }
+}
+@media (min-width: 400px) and (max-width: 991.98px){ /* small devise*/
+    .btn_premium{
+        margin-top: 3px;
+    }
+}
+.btn_custom{
+    color: white;
+    text-transform: uppercase;
+    border-radius: 100px;
+    padding: 5px 15px;    
+}
+.btn_free{
+    background: rgb(79, 19, 156);    
+}
+.btn_free:hover{
+    background: rgb(105, 26, 209);
+    color: black;  
+    transition: 1s;  
+}
+.btn_premium{
+    background: transparent;
+    border: solid 0.01em white;   
+}
+.btn_custom:hover{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.308);
+    transition: 0.50s;
+}
+
