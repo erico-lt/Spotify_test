@@ -38,13 +38,27 @@ h1{
     color: white;
     letter-spacing: -0.05em;
 }
+#conteudos #area_textos h1{
+    color: #7c26f8;
+}
+#conteudos #area_textos h2{
+    color: #7c26f8;
+    letter-spacing: -3px;
+    font-weight: 600;
+}
 @media (max-width: 575.98px){
    h1{
-       font-size: 2.85em;
+        font-size: 2.85em;
    }
+   #conteudos #area_textos h1{
+        font-size: 3em;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px){ /* small devise*/
     h1{
+        font-size: 3em;
+    }
+    #conteudos #area_textos h1{
         font-size: 3em;
     }
 }
@@ -52,18 +66,27 @@ h1{
     h1{
         font-size: 4em;
     }
+    #conteudos #area_textos h1{
+        font-size: 3em;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px){/*large devise*/
     h1{
         font-size: 5em;
     }
+    #conteudos #area_textos h1{
+        font-size: 3em;
+    }
 }
-@media(min-width: 1200px) and (max-width: 1920px){/* medium devise*/
+@media(min-width: 1200px) and (max-width: 1920px){/* extra large devise*/
     h1{
         font-size: 6em;
     }
+    #conteudos #area_textos h1{
+        font-size: 3.95em;
+    }
 }
-@media (min-width: 400px) and (max-width: 991.98px){ /* small devise*/
+@media (min-width: 400px) and (max-width: 991.98px){ /* small devise / large devices */
     .btn_premium{
         margin-top: 3px;
     }
@@ -91,4 +114,12 @@ h1{
     background: rgba(0, 0, 0, 0.308);
     transition: 0.50s;
 }
+.caixa-para-imagens{
+    padding: 10px 10px;
+}
+#conteudos{
+    background: white;
+    margin-top: -15%;
+}
+
 
