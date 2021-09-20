@@ -1,7 +1,8 @@
 
 html, body, #home{
     width: 100%;
-    height: 100%;    
+    height: 100%;
+    overflow-x: hidden;    
 }
 body{    
     background: url(/imagens/capa.png),
@@ -46,11 +47,17 @@ h1{
     letter-spacing: -3px;
     font-weight: 600;
 }
+#conteudos2 #area_textos_conteudo2 h2{
+    color: #33e0ec;
+}
+#conteudos2 #area_textos_conteudo2 p{
+    color: #ffffff;
+}
 @media (max-width: 575.98px){
    h1{
         font-size: 2.85em;
    }
-   #conteudos #area_textos h1{
+   #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h1{
         font-size: 3em;
     }
 }
@@ -58,7 +65,7 @@ h1{
     h1{
         font-size: 3em;
     }
-    #conteudos #area_textos h1{
+    #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h1{
         font-size: 3em;
     }
 }
@@ -66,7 +73,7 @@ h1{
     h1{
         font-size: 4em;
     }
-    #conteudos #area_textos h1{
+    #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h1{
         font-size: 3em;
     }
 }
@@ -74,7 +81,7 @@ h1{
     h1{
         font-size: 5em;
     }
-    #conteudos #area_textos h1{
+    #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h1{
         font-size: 3em;
     }
 }
@@ -82,7 +89,7 @@ h1{
     h1{
         font-size: 6em;
     }
-    #conteudos #area_textos h1{
+    #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h2{
         font-size: 3.95em;
     }
 }
@@ -120,6 +127,14 @@ h1{
 #conteudos{
     background: white;
     margin-top: -15%;
+}
+#conteudos2 .caixa_conteudos2{    
+    -ms-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+    padding-left: 60px;
+    padding-top: 35px;
 }
 
 
