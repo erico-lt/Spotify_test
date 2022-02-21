@@ -60,6 +60,9 @@ h1{
    #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h1{
         font-size: 3em;
     }
+    .iphones-hidden{
+        display:none;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px){ /* small devise*/
     h1{
@@ -68,6 +71,10 @@ h1{
     #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h1{
         font-size: 3em;
     }
+    .company{
+        margin-right: 10px;
+        
+    }
 }
 @media (min-width: 768px) and (max-width: 991.98px){/* medium devise*/
     h1{
@@ -75,7 +82,10 @@ h1{
     }
     #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h1{
         font-size: 3em;
-    }
+    }  
+    .company{
+        padding-left: 25px;
+    }    
 }
 @media (min-width: 992px) and (max-width: 1199.98px){/*large devise*/
     h1{
@@ -91,6 +101,9 @@ h1{
     }
     #conteudos #area_textos h1, #conteudos2 #area_textos_conteudo2 h2{
         font-size: 3.95em;
+    }
+    .caixa-imagens{
+        top: -15px;
     }
 }
 @media (min-width: 400px) and (max-width: 991.98px){ /* small devise / large devices */
@@ -155,7 +168,8 @@ footer .navbar-nav a:hover{
     font-size: 0.9em;
     text-decoration: none;
 }
-footer span{
-    padding: 5px;
+footer ul li{
+    float: right;
+    margin-left: 2px;    
 }
 
