@@ -13,11 +13,11 @@ header{
     background: rgba(0, 0, 0, 0.5);   
 }
 .navbar-nav .link:hover{
-    color: #33a2ec;
+    color: #2011eb;
     text-decoration: overline rgb(32, 190, 32);
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: rgb(255, 255, 255);
 } 
 .navbar-dark .navbar-nav .nav-link:hover{
     color: #33a2ec;
